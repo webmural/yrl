@@ -1,0 +1,27 @@
+::selection {
+  background: lavender;
+  color: black;
+}
+
+:root {
+  background: #011;
+  color: aquamarine;
+  line-height: 1.618;
+}
+
+:any-link:hover {
+  text-decoration-color: navy;
+}
+
+mark {
+  background: chartreuse;
+  color: #100;
+}
+
+body {
+  background-image: linear-gradient(.2turn, indigo 0%, indigo 50%, deepskyblue 50%, deepskyblue);
+}
+
+:any-link {
+  background-image: radial-gradient(indigo 0%, indigo 50%, deepskyblue 50%, deepskyblue);
+}
